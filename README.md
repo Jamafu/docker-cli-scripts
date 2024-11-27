@@ -14,7 +14,7 @@ The script provides the user with a list of running docker containers. The user 
 
 ### Get logs of Docker containers
 
-The script provides the user with a list of running docker containers. The user can then select the containers to get the logs from.
+The script provides the user with a list of running docker containers. The user can then select one of the containers to get the logs.
 
 ## Installation & Build
 
