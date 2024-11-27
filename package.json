@@ -1,0 +1,42 @@
+{
+  "name": "docker-convenience-scripts",
+  "version": "1.0.0",
+  "description": "Script that improve the dev UX when working with docker cli",
+  "main": "index.js",
+  "keywords": [],
+  "author": "jamafu",
+  "license": "ISC",
+  "volta": {
+    "node": "22.6.0"
+  },
+  "scripts": {
+    "docker-start": "node _dist/executables/startDockerServices.js",
+    "docker-stop": "node _dist/executables/stopDockerServices.js",
+    "docker-logs": "node _dist/executables/startDockerLogs.js",
+    "format": "prettier --write .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "inversify": "6.1.4",
+    "neverthrow": "^8.1.1",
+    "reflect-metadata": "0.2.2",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.7",
+    "@types/node": "22.3.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "@typestrong/ts-mockito": "^2.7.12",
+    "eslint": "8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-filename-rules": "^1.3.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4"
+  }
+}
